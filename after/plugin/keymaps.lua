@@ -14,6 +14,7 @@ km.set("", "j", "e", opts)
 
 km.set("i", "jj", "<Esc>", opts)
 
+km.set("n", "<C-p>", "<C-o>", { desc = "Go back" })
 -- Move to window using the <ctrl> hjkl keys
 km.set("n", "<C-n>", "<C-w>h", { desc = "Go to left window" })
 km.set("n", "<C-e>", "<C-w>j", { desc = "Go to lower window" })
